@@ -1,0 +1,50 @@
+.Quiet-Cry-1-hex { color: #EEEFF7; }
+.Quiet-Cry-2-hex { color: #92CDCF; }
+.Quiet-Cry-3-hex { color: #445878; }
+.Quiet-Cry-4-hex { color: #31353D; }
+.Quiet-Cry-5-hex { color: #1C1D21; }
+
+body{
+    background-color: #EEEFF7;
+}
+#img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+}
+#top{
+    background-color: #1C1D21;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 15%;
+    width: 100%;
+    white-space:normal;
+}
+#top div{
+    position: absolute;
+    background-color: #00FF00;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+#top label{
+    font-family: sans-serif;
+    position: static;
+    color: #EEEFF7;
+    top: 45%;
+    left: 50%;
+    margin: 10px;
+}
+#left{
+    background-color: #31353D;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    left: 0%;
+    top: 0%;
+}
