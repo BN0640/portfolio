@@ -4,47 +4,75 @@
 .Quiet-Cry-4-hex { color: #31353D; }
 .Quiet-Cry-5-hex { color: #1C1D21; }
 
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: #EEEFF7;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
-#img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.page{
+    height: 100vh;
+    width: 100vw;
+}
+#left{
+    background-color: #31353D;
+    box-sizing: border-box;
+    position: static;
+    height: 100%;
+    width: 40%;
+    left: 0%;
+    top: 0%;
+}
+#left img{
     transform: translate(-50%, -50%);
+    position: relative; 
     height: 50%;
+    left: 50%;
+    top: 45%;
+}
+#left label{
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    display:inline-block;
+    text-align: justify;
+    position: relative; 
+    color: #EEEFF7;
+    text-shadow: 1px 1px 1px #1C1D21;
+    font-size: 22px;
+    height: 30%;
+    width: 80%;
+    top: 38%;
+    left: 50%;
 }
 #top{
     background-color: #1C1D21;
     box-sizing: border-box;
-    position: absolute;
+    position:fixed;
     top: 0%;
     left: 0%;
-    height: 15%;
+    height: 12%;
     width: 100%;
-    white-space:normal;
+    white-space: normal;
 }
 #top div{
     position: absolute;
-    background-color: #00FF00;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
 }
 #top label{
     font-family: sans-serif;
+    font-size: 20px;
     position: static;
     color: #EEEFF7;
     top: 45%;
     left: 50%;
     margin: 10px;
-}
-#left{
-    background-color: #31353D;
-    box-sizing: border-box;
-    position: absolute;
-    height: 100%;
-    width: 40%;
-    left: 0%;
-    top: 0%;
 }
